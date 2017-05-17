@@ -8,6 +8,13 @@ def print_progress_bar
   puts "\n"
 end
 
+def ask_if_ready(step, index)
+  puts "Are you ready for step #{index + 1}?\n(#{step[:description]})"
+  answer = gets.chomp
+
+  answer.upcase == "Y"
+end
+
 NUM_POTATOES = 5
 NUM_EGGS = 6
 
