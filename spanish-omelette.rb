@@ -27,3 +27,18 @@ puts "You need the following ingredients:"
 ingredients.each do |ingredient|
   puts "#{ingredient[:quantity]} #{ingredient[:name]}"
 end
+
+loop do
+  puts "\n"
+
+  puts "Do you have all the ingredients. Answer\"Y\" or \"N\"."
+  answer = gets.chomp
+  if answer == "Y"
+    puts "Let's get started then."
+    break
+  elsif answer == "N"
+    puts "Let's go shopping."
+  else
+    puts "I do not understand your answer"
+  end
+end
