@@ -8,6 +8,13 @@ def print_progress_bar
   puts "\n"
 end
 
-a = 5
-b = 6
-c = 8
+NUM_POTATOES = 5
+NUM_EGGS = 6
+
+ingredients = [
+  { name: "potatoes", quantity: NUM_POTATOES},
+  { name: "eggs", quantity: NUM_EGGS},
+  { name: "onion", quantity: 1},
+  { name: "oil", quantity: "some"}
+  { name: "salt", quantity: "some"}
+]
