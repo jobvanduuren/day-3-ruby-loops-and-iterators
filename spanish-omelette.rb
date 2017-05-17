@@ -9,3 +9,5 @@ def print_progress_bar
 end
 
 a = 5
+b = 6
+c = 8
